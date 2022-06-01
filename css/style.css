@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 120px;
+    background-color: rgb(6, 93, 255);
+    padding: 12px;
+    box-shadow: 0px 2px 0px;
+}
+.navbar-brand span {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 2rem;
+    font-size: 48px;
+    color: white;
+    font-family: ui-rounded;
+    text-decoration: none;
+    white-space: nowrap;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.items{
+    list-style: none;
+    display: inline;
+}
+
+.items a{
+    color: white;
+    font-size: 1.0vw;
+    text-decoration: none;
+    margin: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+
+  .active , .items a:hover{
+    color:rgb(208, 186, 186)
+}
+.Sunlist{
+    position: absolute;
+    top: 50px;
+    left: 454px;
+    display: none;
+    
+}
+
+  .ULlist .items:hover > .Sunlist  {
+    display: block;
+    background-color: black;
+    width: 215px;
+    color: white;
+    padding: 0px;
+}
+.Sunlist2{
+    position: absolute;
+    top: 50px;
+    left: 604px;
+    display: none;
+    
+}
+
+  .ULlist .items:hover > .Sunlist2  {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 245px;
+    padding: 0px;
+}
+.Sunlist3{
+    position: absolute;
+    top: 50px;
+    right: 530px;
+    display: none;
+    
+}
+
+  .ULlist .items:hover > .Sunlist3  {
+    display: block;
+    background-color: black;
+    width: 245px;
+    padding: 0px;
+}
+.Sunlist4{
+    position: absolute;
+    top: 80px;
+    right: 530px;
+    display: none;
+    
+}
+
+  .ULlist .items:hover > .Sunlist4  {
+    display: block;
+  
+   
+    background-color: black;
+    width: 245px;
+    padding: 0px;
+}
+.item2{
+    margin: 8px;
+    padding: 4px;
+    border-bottom: 1px solid white;
+    list-style: none;
+}
+
+.item2 a{
+    text-align:center;
+    font-weight: 100;
+    font-size: 1vw;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 238px;
+    background-color:rgb(94, 89, 89);
+    margin-bottom: 1px;
+    margin-top: 222px;
+    display: inline-flex;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(14, 13, 13);
+
+}
+.copyright h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0px auto; */
+    padding: 14px;
+    font-size: 18px;
+}
+.socal{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    
+}
+
+.socal  li{
+    margin: 13px ;
+text-decoration: none;
+
+display: inline-flex;
+    font-size: 43px;
+}
+.socal  li a{
+    text-decoration: none;
+    color: white;
+}
+.socal h3{
+    margin-top: 23px;
+    color: rgb(6, 93, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.help{
+    padding: 10px;
+    width: 40%;
+    margin: 17px 50px 19px 210px;
+    align-items: center;
+   
+}
+
+.help  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.help h3{
+    margin-top: 5px;
+    color: rgb(6, 93, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.who{
+      
+    margin: 62px 330px 0px 477px;
+  width: 397px;
+  }
+  .who img{
+    border-radius: 10px;
+    border: 4px dotted blue;
+  }
+  .managementTEAM img{
+    margin: 52px 47px 6px 496px;
+    width: 556px;
+    height: 502px;
+    box-shadow: 0pc 0px 23px;
+  }
+
+  .managementTEAM h4 {
+    font-size: 37px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-style: oblique;
+}
+.comunity{
+    margin: 30px;
+    padding: 23px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-style: oblique;
+}
+.globle{
+    margin: 30px;
+    padding: 23px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-style: oblique; 
+}
+.responsible{
+    margin: 30px;
+    padding: 23px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.rRFservice{
+      
+    margin: 62px 330px 0px 477px;
+
+  
+  }
+  
+  .RFservice img {
+    border-radius: 10px;
+    margin: 26px 480px;
+  }
+  .RFservice p{
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+  }
+  .Dgold {
+    margin: 62px 330px 0px 140px; 
+  }
+  .Dgold img{
+    border-radius: 10px;
+    margin: 26px 480px; 
+  }
+.what .text{
+  width: 80%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  padding: 10px;
+  font-size: 1.5vw;
+  margin: 30px auto;
+}
+.what img{
+  display: flex;
+  width: 536px;
+  margin: 0px auto;
+  align-items: center;
+ 
+}
+.process img{
+  display: flex;
+  width: 536px;
+  margin: 0px auto;
+  align-items: center;
+ 
+}
+.certification img{
+  display: flex;
+    width: 536px;
+    margin: -247px 23px 0px 836px;
+    width: 158px;
+    height: 303px;
+
+ 
+}
+.imglast{
+  display: flex;
+    width: 536px;
+    margin: 12px auto;
+    width: 358px;
+    height: 358px;
+ }
+.vaul img{
+  width: 46%;
+  margin: 49px 447px;
+}
+
+.process{
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: 30px auto;
+  padding: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 1.5vw;
+}
+.why{
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: 30px auto;
+  padding: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 1.5vw;
+}
+.standerd{
+  width: 80%;
+  margin: 30px auto;
+  padding: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 1.5vw;
+}
+.certification{
+   
+  height: 343px;
+  color: black;
+  margin: 50px 12px 50px 12px;
+  padding: 40px;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 1.5vw;
+}
+@media (max-width: 992px){
+    .socal h3{
+        margin-top: 18px;
+        font-size: 21px;
+    
+    }
+    .socal  li{
+         margin-top: 18px;
+    font-size: 21px;
+
+
+    }
+    .help{
+        flex-wrap: wrap;
+}
+.who {
+      
+    margin:17px;
+ 
+  }
+  .RFservice  {
+      
+    margin:17px;
+ 
+  }
+  .Dgold {
+      
+    margin:17px;
+ 
+  }
+  .managementTEAM img{
+      margin: 4px;
+      margin-right: 6px;
+      width: 456px;
+    height: 402px;
+  }
+
+  .ULlist{
+      display: block;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+
+  }
+  .items{
+      display: block;
+      margin: 3px;
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid white;
+     
+  }
+  .items a{
+      font-size: 1em;
+  }
+  .Sunlist{
+    position: absolute;
+    top: 175px;
+    left:152px ;
+    display: none;
+    
+}
+  .Sunlist2{
+    position: absolute;
+    top: 195px;
+    left:152px ;
+    display: none;
+    
+}
+
+  .Sunlist3{
+    position: absolute;
+    top: 223px;
+    left:152px ;
+    display: none;
+    
+}
+
+  .Sunlist4{
+    position: absolute;
+    top: 500px;
+    left:152px ;
+    display: none;
+    
+}
+.vaul img{
+  width: 90% ;
+  margin: 10px 20px ;
+}
+.what img{
+  width: 80%;
+  margin: 0px auto;
+  align-items: center;
+ 
+}
+.process img{
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  align-items: center;
+ 
+}
+.certification img{
+  display: flex;
+  width: 536px;
+  width: 89px;
+  height: 136px;
+ 
+}
+.imglast{
+  display: flex;
+    width: 536px;
+    margin: 12px auto;
+    width: 358px;
+    height: 358px;
+ }
+}
